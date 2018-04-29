@@ -263,7 +263,7 @@ int main( void )
 	UBRR0H = (MYUBRR >> 8);
  1a6:	10 92 c5 00 	sts	0x00C5, r1	; 0x8000c5 <__TEXT_REGION_LENGTH__+0x7e00c5>
 	UBRR0L = MYUBRR;
- 1aa:	83 e3       	ldi	r24, 0x33	; 51
+ 1aa:	87 e6       	ldi	r24, 0x67	; 103
  1ac:	80 93 c4 00 	sts	0x00C4, r24	; 0x8000c4 <__TEXT_REGION_LENGTH__+0x7e00c4>
 	UCSR0B |= (1 << RXEN0) | (1 << TXEN0)|(1<<RXCIE0); // Enable receiver and transmitter
  1b0:	e1 ec       	ldi	r30, 0xC1	; 193

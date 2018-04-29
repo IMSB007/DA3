@@ -8,7 +8,7 @@
 
 
 #define BAUD 9600
-#define MYUBRR F_CPU/16/BAUD -1
+#define MYUBRR F_CPU/8/BAUD -1
 volatile char ReceivedChar;
 volatile uint8_t ADCvalue;
 
